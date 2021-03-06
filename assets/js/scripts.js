@@ -547,7 +547,18 @@ PAGE JS
       }, 100)
     }
   };
-	
+// 	$(document).ready(function(){
+//   $('#product_img').zoom({url: 'https://bestwebcreator.com/organiq/demo/assets/images/product_img1.jpg'});
+// });
+
+// $(document).ready(function(){
+//   $('#product_img').zoom({
+//     url: 'https://bestwebcreator.com/organiq/demo/assets/images/product_img1.jpg', 
+//     callback: function(){
+//       $(this).colorbox({href: this.src});
+//     }
+//   });
+// });
 	/*===================================*
 	14. QUNTITY JS
 	*===================================*/	

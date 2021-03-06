@@ -22,7 +22,10 @@ Version      : 1.0
 	13. START GALLERY SECTION
 	14. START ELEMENT DESIGN
 =============================================================*/
-
+@font-face{
+    font-family: 'Proxima Nova Light';
+    src: url(../fonts/ProximaNova-Light.ttf);
+  }
 /*===================================*
   01. GENERAL STYLE
 *===================================*/
@@ -329,7 +332,6 @@ button:focus {
 .heading_s2 h1,.heading_s2 h2, .heading_s2 h3, .heading_s2 h4, .heading_s2 h5, .heading_s2 h6,
 .heading_s3 h1,.heading_s3 h2, .heading_s3 h3, .heading_s3 h4, .heading_s3 h5, .heading_s3 h6 {
 	margin-bottom: 0px;
-	text-transform: capitalize;
 }
 .heading_s1,
 .heading_s2,
@@ -1116,6 +1118,7 @@ button:focus {
 }
 .dd_main_arrow_none .navbar .navbar-nav > li > .nav-link.dropdown-toggle::after {
 	content: normal;
+
 }
 .dropdown-toggler::after {
 	-moz-transform: rotate(-90deg);
@@ -1128,10 +1131,11 @@ button:focus {
 	top: 10px;
 }
 .navbar .navbar-nav > li > .nav-link {
-	font-weight: 500;
+	font-weight: 600;
 	padding: 35px 10px;
 	text-transform: capitalize;
-	font-size: 14px;
+	font-size: 15px;
+    font-family: 'Proxima Nova Light';
 }
 .navbar .navbar-nav > li > a.active, 
 .navbar .navbar-nav > li:hover > a {
@@ -4040,6 +4044,9 @@ footer .widget_title2 {
 }
 .intro_desc p {
 	font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Proxima Nova Light';
 }
 .intro_desc p:last-child {
 	margin: 0;
@@ -4560,6 +4567,9 @@ footer .widget_title2 {
 }
 .breadcrumb-item.active {
 	color: #333;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'Proxima Nova Light';
 }
 .breadcrumb li a, .breadcrumb li {
 	font-size: 16px;
